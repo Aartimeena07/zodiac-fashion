@@ -1,0 +1,81 @@
+body{
+
+    text-align: center;
+ 
+     color: #9a6b0f;
+ 
+    background-image: url(slik\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    
+ 
+ }
+  
+ 
+ .form{
+    height: 500px;
+    width: 500px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+margin-left: 35%;
+border-radius: 20px;
+margin-top: 100px;
+padding-top: 40px;
+ }
+
+.form-input{
+background-color: transparent;
+width: 300px;
+
+
+}
+
+input{
+border-color: rgb(39, 37, 37);
+    border-radius: 20px;
+    text-align: center;
+    border-width: 5px;
+width: 200px;
+
+}
+select{
+
+    border-radius: 20px;
+    text-align: center;
+    border-width: 5px;
+}
+
+.logo-tag{
+
+color: #d9950c;
+text-decoration: dotted underline white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+ 
+ 
+  
+ 
+ 
+ button{
+
+    width: 100px;
+    height: 40px;
+    color: #9a6b0f;
+    border-radius: 20px;
+    border-width: 10px;
+    text-align: center;
+    font-weight: bold;
+ }
+ button:hover{
+    background-color: black;
+    color: white;
+    border-color: #9a6b0f;
+ }

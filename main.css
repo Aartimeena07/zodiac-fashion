@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+        color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    
+    body{
+    
+     
+    
+        background-color: aliceblue;
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    }
+    
+    p{
+    
+    background-color: black;
+    
+        text-align: center;
+    
+        color: aliceblue;
+    
+    }
+    
+    .navbar{
+    
+        background-color: black;
+       /* border-radius: 50px;*/
+    
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+     
+    
+    }
+    .nav-logo{
+        height: 50px;
+        width: 100px;
+        display: flex;
+        align-self: center;
+    }
+    
+    .logo{
+    background-image: url(main\ logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    
+    }
+    
+    .border{
+    
+        border: 2px solid transparent;
+    }
+    
+    
+    .border:hover{
+        border-bottom: 2px solid white;
+    }
+    .nav-account{
+    
+        display: flex; 
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .account-icon{
+    display: flex; 
+    height: 50px;
+    align-self: center;
+    }
+    .my-account a{
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 6px;
+    text-decoration: none;
+    }
+    
+    p{
+    padding-top: 20px;
+       margin-left: 10px; 
+    }
+    
+    
+    .select{
+    
+    background-color:  #9a6b0f;;
+    display: flex;
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    }
+    
+    .select-search{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 45px;
+    background-color: rgba(241, 232, 232, 0.927);
+    
+    }
+    
+    .select-input{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    padding-left: 5px;
+    }
+    
+    .search-icon{
+    
+    height: 45px;
+    width: 45px;
+    background-color: #9a6b0f;
+    display: flex;
+    align-self: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    }
+    .nav-mybag{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 45px;
+    
+    }
+    .mybag-icon{
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    }
+    
+    p{
+        padding-bottom: 20px;
+    background-color: transparent;
+    }
+    
+    .nav-wishlist{
+        height: 45px;
+        width: 100px;
+    display: flex;
+    background-color: transparent;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .wishlist-icon{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+     
+    
+    
+    }
+    
+    .nav-help{
+    
+        height: 45px;
+        width: 100px;
+    display: flex;
+    background-color: transparent;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    
+    .call-icon{
+        display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .setting{
+    
+    
+        height: 45px;
+        width: 100px;
+    display: flex;
+    background-color: transparent;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    
+    .setting-icon{
+    
+        display: flex;
+        justify-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    p{
+        color: white;
+    }
+    
+    .hero-section{
+    
+        background-image: url(Pin\ by\ fifi\ on\ Fon\ _\ Flower\ graphic\ design\,\ Poster\ background\ design\,\ Iphone\ wallpaper\ tumblr\ aesthetic.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        height: 1000px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    
+    }
+    .shoping-section{
+        height: 800px;
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .box{
+    margin-top: 60px;  
+        height: 400px;
+        width: 23%;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    color: black;
+    
+    }
+    .box-img{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    border-radius: 20px;
+    }
+    
+    .box-containt{
+    margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: black;
+    }
+    .box-containt p{
+        color: #9a6b0f;
+        display: flex;
+        align-self: flex-start;
+        text-decoration: underline;
+    }
+    .box-containt h2{
+        text-align: center;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        padding-bottom: 10px;
+    }
+    
+    .footer-panel{
+    
+    height: 30px;
+    background-color: #9a6b0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    }
+    
+    .footer-panel2{
+    
+        background-color:rgba(18, 17, 17, 0.082);
+        color: white;
+    
+    }
+    .footer-panel2 h3{
+        color: black;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .id-link{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 650px;
+    margin-top: 10px;
+    }
+    .id-link img{
+    
+        border-radius: 50px;
+    }
+    i{
+    
+        display: flex;
+        align-self: center;
+    
+    
+    }
