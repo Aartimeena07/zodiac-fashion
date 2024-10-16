@@ -219,6 +219,30 @@
     p{
         color: white;
     }
+    h1{
+       
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    
+    .vid{
+       background-image: url(wave.png) ;
+       border-radius: 20px;
+       background-size: contain;
+        display: flex;
+        width: 1300px;
+        height: 600px;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
     
     .hero-section{
     

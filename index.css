@@ -1,71 +1,56 @@
-body{
-
+body {
     text-align: center;
- 
-     color: #9a6b0f;
- 
-    background-image: url(slik\ bg.jpg);
+    color: #9a6b0f;
+    background-image: url(slik/bg.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
- 
+}
+
+.container {
+    display: flex; 
+    flex-direction: row;
     
- 
- }
-  
- 
- .form{
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.form-container {
     height: 500px;
-    width: 500px;
-    background-image: url(background.jpg);
+    width: 400px; 
+    background-image: url(background.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-margin-left: 35%;
-border-radius: 20px;
-margin-top: 100px;
-padding-top: 40px;
- }
-
-.form-input{
-background-color: transparent;
-width: 300px;
-
-
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 20px; 
+    padding-top: 20px;
+    display: none; 
 }
 
-input{
-border-color: rgb(39, 37, 37);
+.form {
+    width: 300px;
+}
+
+input, select {
+    border-color: rgb(39, 37, 37);
     border-radius: 20px;
     text-align: center;
     border-width: 5px;
-width: 200px;
-
-}
-select{
-
-    border-radius: 20px;
-    text-align: center;
-    border-width: 5px;
+    width: 100%; 
+    margin-bottom: 10px; 
 }
 
-.logo-tag{
-
-color: #d9950c;
-text-decoration: dotted underline white;
-font-family: Arial, Helvetica, sans-serif;
-
-
-
+.logo-tag {
+    color: #d9950c;
+    text-decoration: dotted underline white;
+    font-family: Arial, Helvetica, sans-serif;
 }
- 
- 
-  
- 
- 
- button{
 
+button {
     width: 100px;
     height: 40px;
     color: #9a6b0f;
@@ -73,9 +58,57 @@ font-family: Arial, Helvetica, sans-serif;
     border-width: 10px;
     text-align: center;
     font-weight: bold;
- }
- button:hover{
+    margin-bottom: 10px; 
+    cursor: pointer; 
+}
+
+button:hover {
     background-color: black;
     color: white;
     border-color: #9a6b0f;
- }
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+.social-button {
+    background-color: #fff; 
+    border: 1px solid #9a6b0f; 
+    color: #9a6b0f;
+    border-radius: 20px;
+
+    cursor: pointer; 
+    width: 150px; 
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-button:hover {
+    background-color: #9a6b0f; 
+    color: white; 
+}
+a{
+    background-color: #fff;
+   
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.toggle-link {
+    margin-top: 20px; 
+    color: rgb(39, 37, 37); 
+    text-decoration: none; 
+}
+
+.toggle-link:hover {
+    text-decoration: underline; 
+}

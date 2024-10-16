@@ -16,81 +16,58 @@
 
 <body>
 
- <div class="form" >
+  <div class="container">
+    <div class="form-container" id="login-form">
+        <div class="logo-tag">
+            <h1>zOdiAc FaSHioN</h1>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Enter your Email" required>
+            <input type="password" placeholder="Enter your password" required>
+            <button type="submit" onclick="window.location.href='main.html'">Login</button>
+            <div class="social-buttons">
+                <button class="social-button">Login with Google</button>
+                <button class="social-button">Login with Facebook</button>
+            </div>
+            
+            <a class="toggle-link" href="#" onclick="toggleForms()">Go to Sign Up</a>
+        </div>
+    </div>
 
-<form action="main.html">
-<div class="logo tag">
-  <H1> zOdiAc FaSHioN</H1>
+    <div class="form-container" id="signup-form">
+        <div class="logo-tag">
+            <h1>Sign Up - zOdiAc FaSHioN</h1>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your Name" required>
+            <input type="email" placeholder="Enter your Email" required>
+            <input type="password" placeholder="Create a Password" required>
+            <button type="submit" onclick="window.location.href='main.html'">Sign Up</button>
+            <a class="toggle-link" href="#" onclick="toggleForms()">Go to Login</a>
+        </div>
+    </div>
 </div>
-  <br>  <br>
-<div class="form-input">
-  <input type="text" placeholder="Enter your name">
 
-  <br><BR>
+<script>
+  
 
-  <input type="email" placeholder="Enter your Email">
+    function toggleForms() {
+        const loginForm = document.getElementById('login-form');
+        const signupForm = document.getElementById('signup-form');
 
-  <br>  <br>
+        if (loginForm.style.display === "none") {
+            loginForm.style.display = "flex"; 
+            signupForm.style.display = "none"; 
+        } else {
+            loginForm.style.display = "none"; 
+            signupForm.style.display = "flex"; 
+        }
+    }
 
-  <input type="password" placeholder="Enter your password">
 
-  <br><br>
+    toggleForms();
+</script>
 
-  <input type="tel" placeholder="Enter your phone number" >
-
-  <br><br>
-  <input type="date" placeholder="Enter your Date of birth">
-
-  <br><br>
-</div>
-
-  <label>
-
-<select name="city" id="101"   >
-
-        <option value="select"> select your city</option>
-
-        <option value="delhi"> delhi</option>
-
-        <option value="madhya pradesh"> madhya pradesh</option>
-
-        <option value="kerela"> kerela</option>
-
-        <option value="bihar">bihar </option>
-
-        <option value="maharastra"> maharastra</option>
-
-        <option value="chennai">chennai </option>
-
-        <br>
-
-    </select>
-
- 
-
-</label>
-
- 
-
-<br><br>
- 
-
-<button> Submit </button>
-
-<br><br>
-
-<br>
-
- 
-
-<br>
-
-<br>
-
- 
-
-</form>
- </div>
 
 </body>
 
